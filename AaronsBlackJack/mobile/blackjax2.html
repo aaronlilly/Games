@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Blackjax Mobile</title>
+
+<!-- Bootstrap CSS --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Jquery --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Custom Script --> 
+<script src="./sitefiles/js/ContentLoader.js"></script> 
+<link rel="stylesheet" href="./sitefiles/css/mobilestyle.css">
+</head>
+
+<body>
+<div id="wholeBody">
+	<div id="table">
+				<div id="insideDeal"><span id="Dealer">Dealer :</span>
+				<span id="dealerLodr"> </span>
+				</div>
+		<div id="deal">
+					<div id="circle2">
+					<input type="text" id="dealScoreEval" value="0" class="p2"></input>
+ 					 / 
+					<input type="text" id="dealScoreAltEval" value="0"class="p2"></input>
+					</div>
+				
+			 </div>
+
+
+			<div id="insidePlay"><span id="Player">Player :</span>
+				<span id='playerLodr'> </span>
+			</div>
+				<div id="playScore">
+					<div id="circle">
+					<input type="text" id="playScoreEval" value="0" class="p1"></input> 	 
+					 / 
+					<input type="text" id="playScoreAltEval" value="0"class="p1"></input>
+					</div>
+							<button type="button" class="btn btn-warning origionalHit" id="hitMe">Hit</button>
+							<button type="button" class="btn btn-success origionalHit" id="standMe">Stand</button>
+							<button class="btn btn-info" id="deckDeal">Deal</button>
+							<button class="btn btn-info" id="returnall">Re-Deal</button> 
+				</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div id="belowTable"> -->
+	<div id="statusKeeper"><span id ="statusBar"> </span><span id="dealerStatus"> </span> <span id="whoWon"> </span></div>
+	<div id="scoreKeeper"><span id="scorey">Score: <input type="text" id="inc" value="0" class="scoreBoard" style="border: none;"> </div></span>
+		</div>
+
+</div>
+
+
+<div id="dontcheat">
+	<br>
+		<div id="Dealerbust">
+			<input type="checkbox" name="dB" value="dbustbox" id="dealerBustBox"> deal bust
+		</div>	
+		<div id="Playerbust">
+			<input type="checkbox" name="pB" value="pbustbox" id="playerBustBox"> play bust
+		</div>
+		<div id="DealerStand">
+			<input type="checkbox" name="dS" value="dstandbox" id="dealerStandBox"> deal stand
+		</div>
+		<div id="PlayerStand"><input type="checkbox" name="pS" value="pstandbox" id="playerStandBox"> play stand
+		</div>
+		<div id="playerLose"><input type="checkbox" name="pl" value="pstandbox" id="playerLoseBox"> play lose
+		</div>
+		<div id="playerWin"><input type="checkbox" name="pw" value="pstandbox" id="playerWinBox"> play win
+		</div>
+		<br>
+		<div id="playz"></div>
+		<br>
+		<div id="dealz"></div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
+

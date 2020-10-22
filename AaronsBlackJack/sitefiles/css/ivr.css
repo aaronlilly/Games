@@ -1,0 +1,80 @@
+body {margin-top:1%;
+ margin-left:5%;
+        width: 95%;
+}
+
+#Dealer
+{width:35%;
+	float:left;
+	margin-top:2%;
+	/*border:solid blue;*/
+}
+
+#Player
+{width:35%;
+	float:left;
+	margin-top:2%;
+	
+}
+#stati {margin-right:1%;
+
+float:left;}
+
+#playerOptions{margin-top:5%;
+	/*display: none;*/
+}
+.p1{width:30px;border:none;text-align:center;}
+
+#circle{margin-top:2%;
+	border:solid blue;
+		height: 105px;
+border-radius: 30%;
+width: 15%;
+text-align:center;}
+
+#circle2{margin-top:2%;
+	border:solid;
+		height: 105px;
+border-radius: 30%;
+width: 13%;
+text-align:center;}
+
+.p2{width:30px;border:none;text-align:center;}
+img {
+	width: 106px;
+	height:164px;
+
+}
+#statusBar{float:left;}
+
+#coverCard{width: 126px;
+	height:184px;}
+
+#pagesection{
+display: none;
+}
+
+#dontcheat{display: none;}
+
+#deal{display:none;}
+
+hr{border:solid;}
+
+#inc {
+   font-size: 28px;
+   width:70px;
+  padding: 1%;
+}
+
+.enableinit{display:block;}
+.disableinit{display: none;}
+
+/*#reDeal{display: none;}*/
+
+#origionalHit{display:block;}
+#secondHit{display: none;}
+
+#returning{display:none;}
+#returnall{display:none;}
+
+#whoWon{font-size: 30px;}

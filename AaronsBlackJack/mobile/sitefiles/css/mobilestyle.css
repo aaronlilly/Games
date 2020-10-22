@@ -1,0 +1,67 @@
+body { margin:1%;
+    	width:500px;   
+}
+
+/*#wholeBody{
+	width:800px;
+	
+}
+*/
+#table{width:500px;}
+#dealerSide {width:5%;height:30%;float:left;}
+#insideDeal {height:15%;background-color:green;border:solid black;margin-top:1%;}
+
+#playerSide {width:5%;height:30%;float:left;}
+#insidePlay {height:15%;background-color:green;border:solid black;margin-top:1%;}
+
+/*#belowTable {height:10%;width:100%;}*/
+#statusKeeper {height:5%;width:15%;float:left;font-size: 25px;}
+#scoreKeeper {height:5%;width:20%;float:left;}
+
+
+.p1{width:30px;border:none;text-align:center;}
+
+.p2{width:30px;border:none;text-align:center;}
+img {
+	width: 106px;
+	height:164px;
+
+}
+#Dealer{background-color: white;font-size: 25px;
+
+}
+#Player{background-color: white;font-size: 25px;
+
+}
+
+#scorey{font-size: 38px;}
+.scoreBoard{width:50px;}
+
+#statusKeeper{width:100%;}
+#hitNStand{width:100%;}
+
+#dontcheat{display: none;}
+#deal{border:solid black;display:none;}
+
+#playScore{border:solid black;}
+
+#circle{
+		height: 85px;
+width: 35%;
+text-align:center;
+margin-left:1%;
+font-size: 28px;}
+
+#circle2{
+	
+		height: 85px;
+width: 35%;
+text-align:center;
+font-size: 28px;}
+
+.origionalHit{display:none;}
+
+#deckDeal{height:10%;width:20%;font-size: 36px;margin-left: 2%;margin-bottom: 1%;}
+#returnall{height:7%;width:30%;font-size: 36px;display:none;margin-left: 2%;margin-bottom: 1%;}
+#hitMe{height:7%;width:15%;font-size: 36px;margin-left: 2%;margin-bottom: 1%;}
+#standMe{height:7%;width:20%;font-size: 36px;margin-left:8%;margin-bottom: 1%;padding:1%;}
